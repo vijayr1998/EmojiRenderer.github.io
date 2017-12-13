@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Zpix';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ZpixRegular'), url('/Zpix.ttf') format('ttf');
+}

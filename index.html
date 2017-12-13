@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kgbach emoji renderer</title>
+    <link rel = "stylesheet" type="text/css" href="Fonts/Zpix.css">
+    <style>
+        h1{
+            font-family: Zpix;
+        }
+    </style>
+
+    <img id="sourceImage" src="" width="0" height="0">
+</head>
+<body>
+    <h1>Emoji Render</h1>
+    <input type="text" name="CharacterString" value="我" id="CharacterString" onchange="updateText()">
+    <canvas id="canvas" width="256" height="256"></canvas>
+    <button type="button" id="displayButton" onclick="convertToEmojiButton()">Convert Text</button>
+    <textarea id="out" rows="100" cols = "30" style="max-height: 100px;min-height: 100px;resize:none"></textarea>
+    <script src="JS/js.js"></script>
+</body>
+</html>
